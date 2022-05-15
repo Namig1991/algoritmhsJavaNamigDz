@@ -1,4 +1,9 @@
-package ru.skypro;
+package ru.skypro.Servise;
+
+import ru.skypro.Exception.IntOutOfBoundException;
+import ru.skypro.Exception.NotFoubdElement;
+import ru.skypro.Exception.PassingNullToParameterException;
+import ru.skypro.Sorts.SortMethods;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -256,5 +261,4 @@ public class IntListImpl implements IntList {
         result = 31 * result + Arrays.hashCode(arrayInt);
         return result;
     }
-
 }

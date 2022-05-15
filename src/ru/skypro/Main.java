@@ -1,11 +1,11 @@
 package ru.skypro;
-import java.util.Arrays;
+
+
+import ru.skypro.Sorts.SortMethods;
 
 import static java.util.Arrays.*;
 
 public class Main {
-
-
     public static void main(String[] args) {
 
         int[] numbers1 = new int[100_000];
@@ -27,10 +27,6 @@ public class Main {
         long start3 = System.currentTimeMillis();
         SortMethods.sortInsertion(numbers3);
         System.out.println("Insertion - " + (System.currentTimeMillis() - start3));
-
-
-
-
     }
 }
 

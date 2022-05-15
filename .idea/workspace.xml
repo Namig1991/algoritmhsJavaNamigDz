@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74e67ce4-8a41-4a6f-b5eb-efac07b71f2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/skypro/IntList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/skypro/IntListImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/skypro/IntListImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/skypro/IntOutOfBoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/skypro/SortMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algoritmhsJavaNamigDz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algoritmhsJavaNamigDz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/skypro/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/IntList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/skypro/IntListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/IntListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/skypro/IntListImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/Tests/IntListImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/skypro/IntOutOfBoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/Exception/IntOutOfBoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/skypro/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/skypro/StringList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/skypro/StringListImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/skypro/NotFoubdElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/Exception/NotFoubdElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/skypro/PassingNullToParameterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/Exception/PassingNullToParameterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/skypro/SortMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/SortMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/skypro/StringOutOfBoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/skypro/Exception/StringOutOfBoundException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dz2.14Algoritmhs" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,13 +62,18 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.skypro" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.ru.skypro.MyProgram">
-    <configuration name="MyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.skypro.MyProgram" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.skypro.Main" />
       <module name="algoritmhsJavaNamigDz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.skypro.*" />
+          <option name="PATTERN" value="ru.skypro.Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.skypro.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.skypro.Main" />
+    <configuration name="ru.skypro.MyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.skypro.MyProgram" />
       <module name="algoritmhsJavaNamigDz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.skypro.*" />
+          <option name="PATTERN" value="ru.skypro.Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,7 +114,7 @@
       <workItem from="1652340506193" duration="1752000" />
       <workItem from="1652445461515" duration="951000" />
       <workItem from="1652519476384" duration="43000" />
-      <workItem from="1652605994744" duration="1292000" />
+      <workItem from="1652605994744" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="мой второй коммит Адгоритмы 1.1">
       <created>1652341666881</created>
@@ -118,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652341666881</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="мой второй коммит Адгоритмы 2.17">
+      <created>1652607320197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652607320197</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="мой второй коммит Адгоритмы 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="мой второй коммит Адгоритмы 1.1" />
+    <MESSAGE value="мой второй коммит Адгоритмы 2.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="мой второй коммит Адгоритмы 2.17" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package ru.skypro;
+package ru.skypro.Sorts;
 
 public class SortMethods {
     private static void swapElements(int[] arr, int indexA, int indexB) {
@@ -6,7 +6,6 @@ public class SortMethods {
         arr[indexA] = arr[indexB];
         arr[indexB] = temp;
     }
-
     public static void sortBubble(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
@@ -17,7 +16,6 @@ public class SortMethods {
 
         }
     }
-
     public static void sortSelection(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minElementIndex = i;
@@ -29,16 +27,15 @@ public class SortMethods {
             swapElements(arr, i, minElementIndex);
         }
     }
-
-    public static void sortInsertion(int[] arr) {
+    public static void sortInsertion(int[]arr) {
         for (int i = 1; i < arr.length; i++) {
             int temp = arr[i];
-            int j = i;
+            int j =i;
             while (j > 0 && arr[j - 1] >= temp) {
-                arr[j] = arr[j - 1];
+                arr[j]=arr[j-1];
                 j--;
             }
-            arr[j] = temp;
+            arr[j]=temp;
         }
     }
 }
