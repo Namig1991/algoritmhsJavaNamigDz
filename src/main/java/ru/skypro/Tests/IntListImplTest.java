@@ -1,15 +1,16 @@
-package ru.skypro;
+package ru.skypro.Tests;
 
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import ru.skypro.Exception.PassingNullToParameterException;
+import ru.skypro.Servise.IntListImpl;
 
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class IntListImplTest {
-
     private final IntListImpl out = new IntListImpl(0);
 
     @BeforeEach

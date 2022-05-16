@@ -1,10 +1,8 @@
-package ru.skypro;
+package ru.skypro.Servise;
 
 public interface IntList {
     int[] getArrayInt();
-
     int getSize();
-
     int add(int item);
     int add(int index, int item);
     int set(int index, int item);
